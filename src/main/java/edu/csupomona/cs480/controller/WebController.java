@@ -52,6 +52,14 @@ public class WebController {
         return "OK";
     }
 
+    @RequestMapping(value = "/cs480/test", method = RequestMethod.GET)
+    String test() {
+    	// You can replace this with other string,
+    	// and run the application locally to check your changes
+    	// with the URL: http://localhost:8080/
+        return "this is a test";
+    }
+
     /**
      * This is a simple example of how to use a data manager
      * to retrieve the data and return it as an HTTP response.
